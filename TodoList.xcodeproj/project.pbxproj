@@ -21,6 +21,10 @@
 		9892D73017B1D1A7008642BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9892D71117B1D1A7008642BD /* Foundation.framework */; };
 		9892D73817B1D1A7008642BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9892D73617B1D1A7008642BD /* InfoPlist.strings */; };
 		9892D73B17B1D1A7008642BD /* TodoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9892D73A17B1D1A7008642BD /* TodoListTests.m */; };
+		9892D74717B1D20D008642BD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9892D74517B1D20D008642BD /* TableViewController.m */; };
+		9892D74817B1D20D008642BD /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9892D74617B1D20D008642BD /* TableViewController.xib */; };
+		9892D74B17B1D5CC008642BD /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9892D74A17B1D5CC008642BD /* CustomCell.m */; };
+		9892D74D17B1D5E0008642BD /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9892D74C17B1D5E0008642BD /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		9892D73717B1D1A7008642BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9892D73917B1D1A7008642BD /* TodoListTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoListTests.h; sourceTree = "<group>"; };
 		9892D73A17B1D1A7008642BD /* TodoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoListTests.m; sourceTree = "<group>"; };
+		9892D74417B1D20D008642BD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9892D74517B1D20D008642BD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		9892D74617B1D20D008642BD /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		9892D74917B1D5CB008642BD /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		9892D74A17B1D5CC008642BD /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		9892D74C17B1D5E0008642BD /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,12 @@
 				9892D71E17B1D1A7008642BD /* AppDelegate.h */,
 				9892D71F17B1D1A7008642BD /* AppDelegate.m */,
 				9892D71617B1D1A7008642BD /* Supporting Files */,
+				9892D74417B1D20D008642BD /* TableViewController.h */,
+				9892D74517B1D20D008642BD /* TableViewController.m */,
+				9892D74617B1D20D008642BD /* TableViewController.xib */,
+				9892D74917B1D5CB008642BD /* CustomCell.h */,
+				9892D74A17B1D5CC008642BD /* CustomCell.m */,
+				9892D74C17B1D5E0008642BD /* CustomCell.xib */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -227,6 +243,8 @@
 				9892D72217B1D1A7008642BD /* Default.png in Resources */,
 				9892D72417B1D1A7008642BD /* Default@2x.png in Resources */,
 				9892D72617B1D1A7008642BD /* Default-568h@2x.png in Resources */,
+				9892D74817B1D20D008642BD /* TableViewController.xib in Resources */,
+				9892D74D17B1D5E0008642BD /* CustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +281,8 @@
 			files = (
 				9892D71C17B1D1A7008642BD /* main.m in Sources */,
 				9892D72017B1D1A7008642BD /* AppDelegate.m in Sources */,
+				9892D74717B1D20D008642BD /* TableViewController.m in Sources */,
+				9892D74B17B1D5CC008642BD /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
